@@ -5,7 +5,7 @@ import (
 	"io"
 
 	"github.com/pkg/errors"
-	"github.com/xitongsys/parquet-go/source"
+	"github.com/hyperxpizza/parquet-go/source"
 	"gocloud.dev/blob"
 )
 

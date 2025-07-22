@@ -6,7 +6,7 @@ import (
 
 	"cloud.google.com/go/storage"
 	"github.com/bobg/gcsobj"
-	"github.com/xitongsys/parquet-go/source"
+	"github.com/hyperxpizza/parquet-go/source"
 )
 
 // Compile time check that *File implement the source.ParquetFile interface.

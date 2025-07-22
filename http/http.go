@@ -2,7 +2,7 @@ package http
 
 import (
 	"errors"
-	"github.com/xitongsys/parquet-go/source"
+	"github.com/hyperxpizza/parquet-go/source"
 	"mime/multipart"
 )
 
