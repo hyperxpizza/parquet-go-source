@@ -19,12 +19,11 @@ func main() {
 		"name=Sex, type=BOOLEAN",
 	}
 	ctx := context.Background()
-	projectId := "Please change this to your own gCloud project Id"
 	bucketName := "Your bucket name"
 	fileName := "gcs_example/csv.parquet"
 
 	//write
-	fw, err := gcs.NewGcsFileWriter(ctx, projectId, bucketName, fileName)
+	fw, err := gcs.NewGcsFileWriter(ctx, bucketName, fileName)
 	if err != nil {
 		log.Println("Can't open file", err)
 		return
